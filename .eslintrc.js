@@ -178,10 +178,7 @@ module.exports = {
                 'no-restricted-imports': [
                     'error',
                     {
-                        patterns: [
-                            // Allow deeper imports for TypeScript types. TODO?
-                            '@pg-enzian/*/*/*/*',
-                        ],
+                        patterns: ['@pg-enzian/*/*/*/*'],
                     },
                 ],
             },
